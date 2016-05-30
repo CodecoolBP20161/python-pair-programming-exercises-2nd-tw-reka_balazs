@@ -18,7 +18,6 @@ def main():
     while True:
         request = input("Request new password? (Y/N)")
         if request == "Y":
-            global diff
             diff = input("Strenght of password? (weak/strong)")
             print(passwordgen(diff))
         else:
