@@ -1,9 +1,9 @@
-def palindrome(aaa):
-    return aaa[::-1].lower().replace(" ", "") == aaa.lower().replace(" ", "")
+def palindrome(str):
+    return str[::-1].lower().replace(" ", "") == str.lower().replace(" ", "")
 
 
 def main():
-    word = input("Enter a word: ")
+    word = input("Enter a word to test if it is a palindrome: ")
     print(palindrome(word))
     return
 
